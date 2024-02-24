@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 public class DemoController {
 
-    @GetMapping("/demo")
+    @GetMapping("/test")
     public ResponseEntity<String> sayHello(){
         return ResponseEntity.ok("Hello From Secured Endpoint");
     }
